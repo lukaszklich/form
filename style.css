@@ -1,0 +1,33 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    background: #809fff;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form{
+    max-width: 400px;
+    width: 100%;
+}
+
+.main__header{
+
+}
+
+.checkbox {
+    margin: 0 0 20px 0;
+}
+
+.radio {
+    margin: 0 0 20px 0;
+}
