@@ -15,17 +15,17 @@
         <form class="form" action="http://dev.cotenfrontend.pl" method="POST">
             <p>
                 <label for="name">Your first name:
-                    <input name="Name" placeholder="please enter your first name" id="name">
+                    <input required name="Name" placeholder="please enter your first name" id="name">
                 </label></label>
             </p>
             <p>
                 <label for="name">Your last name:
-                    <input type="text" name="Lastname" placeholder="please enter your last name" id="lastname">
+                    <input required type="text" name="Lastname" placeholder="please enter your last name" id="lastname">
                 </label>
             </p>
             <p>
                 <label for="password">Your password:
-                    <input type="password" name="Password" id="password">
+                    <input type="password" name="Password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" id="password">
                 </label>
             </p>
             <p>
